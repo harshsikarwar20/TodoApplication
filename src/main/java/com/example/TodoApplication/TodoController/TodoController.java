@@ -22,7 +22,7 @@ public class TodoController {
         return todoService.addTodo(todo);
     }
 
-    @PutMapping(value = "/update/todo")
+    @PutMapping(value = "/updateTodoById/{id}/{status}")
     private String updateTodo(@PathVariable String id , @PathVariable String status){
         return todoService.updateTodo(id , status);
     }

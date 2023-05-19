@@ -169,7 +169,7 @@ public class TodoController {
 #### To See Controller
 :heavy_check_mark: [Controller](https://github.com/harshsikarwar20/TodoApplication/tree/master/src/main/java/com/example/TodoApplication/TodoController)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### :green_square: 4. Controller - I have used one Dao which is TodoDao.java
+### :green_square: 4. Repository - I have used one Dao which is TodoDao.java
 #### :large_orange_diamond: TodoDao.java
 ```java
 package com.example.TodoApplication.TodoDao;
